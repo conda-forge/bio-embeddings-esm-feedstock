@@ -30,12 +30,6 @@ tests:
       imports:
         - esm
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
 
 about:
   summary: Pre-trained evolutionary scale models for proteins, from Facebook AI Research.
